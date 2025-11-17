@@ -540,7 +540,27 @@ A: No, but it can have composite primary key (multiple columns together).
 A: PK → Cannot be NULL, only one per table; UNIQUE → Can be NULL, multiple per table.
 
 ### Foreign Key:
--
+- A foreign key in a database is a relationship/link between two tables. It ensures that a field (or group of fields) in one table matches a primary key in another table.
+- Primary key of one table is foreign key of another table
+- to delete one row from other table which has relationship of PK and FK use ON DELETE - CASCADE and SET NULL
+
+**STudent table**
+| Student_ID | name    | Year                                         |
+| ----------- | ------- | --------------------------------------------- |
+| 1           | Alice   |  2   |
+| 2           | Bob     |   3      |
+| 3           | Charlie | 1 |
+
+- year is primary key
+
+**Year table**
+| Year | Room    | Block                                         |
+| ----------- | ------- | --------------------------------------------- |
+| 1           | 501   |  2   |
+| 2           | 601     |   3      |
+| 3           | 701 | 1 |
+
+- year is foregin key of student table
 
 # PENDING NOTES FOR OTHER CONSTRAINTS
 
