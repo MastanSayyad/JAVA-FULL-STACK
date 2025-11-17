@@ -543,6 +543,8 @@ A: PK → Cannot be NULL, only one per table; UNIQUE → Can be NULL, multiple p
 - A foreign key in a database is a relationship/link between two tables. It ensures that a field (or group of fields) in one table matches a primary key in another table.
 - Primary key of one table is foreign key of another table
 - to delete one row from other table which has relationship of PK and FK use ON DELETE - CASCADE and SET NULL
+- CASCADE: completely delete both rows
+- SET NULL: It will create the NULL where the parent key is deleted
 
 **STudent table**
 | Student_ID | name    | Year                                         |
@@ -562,6 +564,26 @@ A: PK → Cannot be NULL, only one per table; UNIQUE → Can be NULL, multiple p
 
 - year is foregin key of student table
 
+
+**Syntax**
+
+```
+CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    ...,
+    FOREIGN KEY (child_column) REFERENCES parent_table(parent_column)
+);
+
+Example:
+CREATE TABLE year (
+    year int,
+    room varchar NOT NULL,
+    block varchar PRIMARY KEY
+    FOREIGN KEY (year) REFERENCES student(year)
+);
+
+```
 # PENDING NOTES FOR OTHER CONSTRAINTS
 
 ---
