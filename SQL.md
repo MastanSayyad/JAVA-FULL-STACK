@@ -539,6 +539,9 @@ A: No, but it can have composite primary key (multiple columns together).
 **Q: Difference between PRIMARY KEY and UNIQUE?**
 A: PK → Cannot be NULL, only one per table; UNIQUE → Can be NULL, multiple per table.
 
+### Foreign Key:
+-
+
 # PENDING NOTES FOR OTHER CONSTRAINTS
 
 ---
