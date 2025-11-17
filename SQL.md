@@ -2,16 +2,16 @@
 
 ## Learning SQL roadmap (step-by-step) FOR INTERVIEW
 
-- [x] 1. [SQL. MySQL, DB, DBMS](https://github.com/MastanSayyad/FullStackJava/blob/main/SQL.md#sql)
-- [x] 2. [Difference between SQL and MySQL](https://github.com/MastanSayyad/FullStackJava/blob/main/SQL.md#difference-between-sql-and-mysql)
-- [x] 3. [RDBMS, Table, How to Create Database](https://github.com/MastanSayyad/FullStackJava/blob/main/SQL.md#rdbms-relational-mysql)
-- [x] 4. [Basic CRUD (CREATE, INSERT, SELECT, UPDATE, DELETE)](https://github.com/MastanSayyad/FullStackJava/blob/main/SQL.md#types-of-sql-commands)
-- [x] 5. [Types of Commands: DDL, DML, DQL, DCL, TCL](https://github.com/MastanSayyad/FullStackJava/blob/main/SQL.md#types-of-sql-commands)
-- [x] 6. [Data Types in SQL](https://github.com/MastanSayyad/FullStackJava/blob/main/SQL.md#datatypes-in-sql)
-- [x] 7. [Constraints](https://github.com/MastanSayyad/FullStackJava/blob/main/SQL.md#constraints)
-- [ ] 7. [Operators in SQL](https://github.com/MastanSayyad/FullStackJava/blob/main/SQL.md#operators-in-sql)
-- [ ] 8. [Clauses in SQL Filtering (WHERE), sorting (ORDER BY), limiting (LIMIT)](https://github.com/MastanSayyad/FullStackJava/blob/main/SQL.md#clauses-in-sql)
-- [ ] 8. [Execution Flow order of SQL Commands](https://github.com/MastanSayyad/FullStackJava/blob/main/SQL.md#execution-flow-of-sql-commands)
+- [x] 1. [SQL. MySQL, DB, DBMS](https://github.com/MastanSayyad/JAVA-FULL-STACK/blob/main/SQL.md#sql)
+- [x] 2. [Difference between SQL and MySQL](https://github.com/MastanSayyad/JAVA-FULL-STACK/blob/main/SQL.md#sql-and-mysql)
+- [x] 3. [RDBMS, Table, How to Create Database](https://github.com/MastanSayyad/JAVA-FULL-STACK/blob/main/SQL.md#rdbms-relational-mysql)
+- [x] 4. [How to create database and common commands)](https://github.com/MastanSayyad/JAVA-FULL-STACK/blob/main/SQL.md#how-to-create-database)
+- [x] 5. [Types of Commands: DDL, DML, DQL, DCL, TCL](https://github.com/MastanSayyad/JAVA-FULL-STACK/blob/main/SQL.md#types-of-sql-commands)
+- [x] 6. [Data Types in SQL](https://github.com/MastanSayyad/JAVA-FULL-STACK/blob/main/SQL.md#datatypes-in-sql)
+- [x] 7. [Constraints](https://github.com/MastanSayyad/JAVA-FULL-STACK/blob/main/SQL.md#constraints)
+- [x] 7. [Operators in SQL](https://github.com/MastanSayyad/JAVA-FULL-STACK/blob/main/SQL.md#operators-in-sql)
+- [x] 8. [Clauses in SQL Filtering (WHERE), sorting (ORDER BY), limiting (LIMIT)](https://github.com/MastanSayyad/JAVA-FULL-STACK/blob/main/SQL.md#clauses-in-sql)
+- [x] 8. [Execution Flow order of SQL Commands](https://github.com/MastanSayyad/JAVA-FULL-STACK/blob/main/SQL.md#execution-flow-of-sql-commands)
 - [ ] 9. Aggregation (COUNT, SUM, AVG, GROUP BY, HAVING)
 - [ ] 10. Joins (INNER, LEFT, RIGHT, CROSS)
 - [ ] 11. Subqueries & derived tables
