@@ -574,16 +574,47 @@ CREATE TABLE table_name (
     ...,
     FOREIGN KEY (child_column) REFERENCES parent_table(parent_column)
 );
+```
 
-Example:
-CREATE TABLE year (
-    year int,
-    room varchar NOT NULL,
-    block varchar PRIMARY KEY
-    FOREIGN KEY (year) REFERENCES student(year)
+**Example:**
+```
+CREATE TABLE Customers (
+    customer_id INT PRIMARY KEY,
+    name VARCHAR(255)
 );
 
+CREATE TABLE Orders (
+    order_id INT PRIMARY KEY,
+    customer_id INT,
+    product VARCHAR(255),
+    order_date DATE,
+    FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
+);
 ```
+
+**Output**
+
+**Customer Table**
+| customer_id | name    |
+| ----------- | ------- |
+| 1           | Alice   |
+| 2           | Bob     |
+| 3           | Charlie |
+
+**Orders Table**
+| order_id | customer_id | product    | order_date |
+| -------- | ----------- | ---------- | ---------- |
+| 101      | 1           | Laptop     | 2025-10-15 |
+| 102      | 2           | Smartphone | 2025-10-16 |
+| 103      | 1           | Headphones | 2025-10-17 |
+| 104      | 3           | Tablet     | 2025-10-18 |
+
+- `order_id` is the primary key for the Orders table.
+- `customer_id` is a foreign key referencing customer_id in the Customers table.
+- `product` specifies what the customer ordered.
+- `order_date` is the date when the order was placed.
+
+
 # PENDING NOTES FOR OTHER CONSTRAINTS
 
 ---
